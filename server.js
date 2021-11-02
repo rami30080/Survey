@@ -3,9 +3,6 @@ const app = express(); //Line 2
 const mongoose = require("mongoose");
 const port = process.env.PORT || 5000; //Line 3
 
-this.app.use(express.static(
-  path.join(__dirname,"./client/build")));
-
 
 const url = "mongodb+srv://rami30080:r%40m%21Ay30090@cluster0.cyu3f.mongodb.net/test";
 
